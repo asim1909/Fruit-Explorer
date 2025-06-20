@@ -123,31 +123,31 @@ const CARD_WIDTH = (Dimensions.get('window').width - 48) / 2;
 const styles = StyleSheet.create({
   splashContainer: {
     flex: 1,
-    backgroundColor: '#fef7e8', // Softer cream background
+    backgroundColor: '#fef7e8', 
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
   },
   logo: {
-    width: 160, // Slightly larger for prominence
+    width: 160, 
     height: 160,
     marginBottom: 24,
-    borderRadius: 20, // Rounded logo for modern feel
+    borderRadius: 20,
   },
   splashText: {
-    fontSize: 36, // Larger for impact
-    fontWeight: '700', // Bolder but modern
-    color: '#3b0764', // Deeper purple for elegance
+    fontSize: 36,
+    fontWeight: '700',
+    color: '#3b0764', 
     letterSpacing: 1.2,
-    fontFamily: 'System', // Clean system font
+    fontFamily: 'System', 
   },
   container: {
     flex: 1,
-    paddingTop: 48, // More breathing room
-    backgroundColor: '#f5f6ff', // Light lavender background
+    paddingTop: 48, 
+    backgroundColor: '#f5f6ff', 
   },
   header: {
-    fontSize: 30, // Slightly larger for hierarchy
+    fontSize: 30, 
     fontWeight: '700',
     textAlign: 'center',
     marginBottom: 16,
@@ -156,16 +156,16 @@ const styles = StyleSheet.create({
     fontFamily: 'System',
   },
   searchBar: {
-    height: 44, // Taller for better touch
-    borderColor: '#d1d5db', // Softer gray border
+    height: 44, 
+    borderColor: '#d1d5db', 
     borderWidth: 1,
-    borderRadius: 16, // More rounded for modern look
+    borderRadius: 16, 
     marginHorizontal: 16,
     marginVertical: 12,
     paddingHorizontal: 16,
     backgroundColor: '#ffffff',
     fontSize: 16,
-    shadowColor: '#000', // Subtle shadow for depth
+    shadowColor: '#000', 
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.05,
     shadowRadius: 8,
@@ -175,26 +175,26 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginHorizontal: 16,
-    gap: 12, // Modern spacing with gap
+    gap: 12, 
   },
   card: {
     width: CARD_WIDTH,
-    minHeight: 120, // Slightly taller for balance
-    borderRadius: 18, // Softer, modern corners
+    minHeight: 120, 
+    borderRadius: 18, 
     marginBottom: 20,
     padding: 16,
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
     backgroundColor: '#ffffff',
-    shadowColor: '#000', // Subtle shadow for elevation
+    shadowColor: '#000', 
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.1,
     shadowRadius: 12,
     elevation: 4,
-    borderWidth: 0, // Remove border for cleaner look
+    borderWidth: 0, 
   },
   selectedCard: {
-    backgroundColor: '#fff1f3', // Light pink for selection
+    backgroundColor: '#fff1f3', 
     shadowColor: '#d72660',
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.2,
@@ -202,19 +202,19 @@ const styles = StyleSheet.create({
     elevation: 8,
   },
   cardTitle: {
-    fontSize: 22, // Larger for emphasis
+    fontSize: 22,
     fontWeight: '600',
     color: '#3b0764',
     marginBottom: 6,
     fontFamily: 'System',
   },
   selectedTitle: {
-    color: '#c2185b', // Vibrant pink for selected state
+    color: '#c2185b', 
     fontWeight: '700',
   },
   cardFamily: {
-    fontSize: 15, // Slightly larger for readability
-    color: '#6b7280', // Neutral gray for secondary text
+    fontSize: 15, 
+    color: '#6b7280',
     marginBottom: 6,
     fontFamily: 'System',
   },
@@ -222,16 +222,16 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   cardDetailText: {
-    fontSize: 14, // Larger for clarity
-    color: '#374151', // Darker gray for contrast
+    fontSize: 14, 
+    color: '#374151', 
     marginBottom: 4,
-    lineHeight: 20, // Better readability
+    lineHeight: 20, 
   },
   emptyText: {
     textAlign: 'center',
     marginTop: 48,
-    fontSize: 20, // Slightly larger for emphasis
-    color: '#9ca3af', // Softer gray for empty state
+    fontSize: 20, 
+    color: '#9ca3af', 
     fontFamily: 'System',
     lineHeight: 28,
   },
@@ -239,7 +239,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f5f6ff', // Match container background
+    backgroundColor: '#f5f6ff', 
   },
 });
 
