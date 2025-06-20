@@ -34,7 +34,12 @@ Fruit data is fetched from the [Fruityvice API](https://www.fruityvice.com/).
 
 ## Screenshots
 
-![screenshot](https://upload.wikimedia.org/wikipedia/commons/6/6b/Bitmap_Icon_Fruit.png)
+<table>
+  <tr>
+    <td><img src="assets/1.jpg" alt="Splash Screen" width="200"/></td>
+    <td><img src="assets/2.jpg" alt="Fruit List" width="200"/></td>
+  </tr>
+</table>
 
 ## License
 
